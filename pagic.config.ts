@@ -1,4 +1,5 @@
 export default {
+    srcDir: 'src',
     theme: 'blog',
     plugins: ['blog'],
     title: 'pagic template',
@@ -13,5 +14,37 @@ export default {
           v2ex: 'huqi',
           zhihu: 'fashaoge'
         }
-      }
+      },
+    nav: [
+        {
+          text: 'Homepage',
+          link: '/index.html',
+          icon: 'czs-home-l',
+        },
+        {
+          text: 'Categories',
+          link: '/categories/index.html',
+          icon: 'czs-category-l',
+        },
+        {
+          text: 'Tags',
+          link: '/tags/index.html',
+          icon: 'czs-tag-l',
+        },
+        {
+          text: 'About',
+          link: '/about/index.html',
+          icon: 'czs-about-l',
+        },
+        {
+          text: 'Archives',
+          link: '/archives/index.html',
+          icon: 'czs-box-l',
+        },
+        {
+          text: 'Friends',
+          link: '/links/index.html',
+          icon: 'czs-link-l',
+        },
+      ],
 };

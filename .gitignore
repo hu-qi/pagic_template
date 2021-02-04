@@ -1,1 +1,12 @@
+node_modules
+
+*.log
+
+.DS_Store
+
+Thumbs.db
+db.json
+public
+.deploy*
+
 dist
